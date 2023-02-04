@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@700&display=swap");
+/* font-family: 'Bebas Neue', cursive; 
+font-family: 'Orbitron', sans-serif;  dijital görünüm için...*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(34, 33, 33);
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+}
+
+#clock {
+  text-align: center;
+  margin-top: 5rem;
+  /* border: 2px solid red; */
+  margin: 3rem auto;
+}
+
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  /* width: 50%; */
+  column-gap: 1rem;
+}
+
+.clock-items {
+  background-color: white;
+  color: black;
+  width: 6rem;
+  border-radius: 1rem;
+  font-family: "Orbitron", sans-serif;
+  /* padding: auto; */
+}
